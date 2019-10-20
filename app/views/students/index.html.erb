@@ -3,3 +3,7 @@
     <div><%= link_to student.to_s, student_path(student) %></div>
   <% end %>
 </div>
+<br>
+<form action="<%= new_student_path %>">
+        <button type="submit">Create New Student</button>
+     </form>
